@@ -5,7 +5,7 @@ filereaderAPI.py用來讀取不同副檔名的文章內容(word、pdf、txt)
 <br>
 hdfsAPI.py用來查詢以及下載hdfs的檔案
 <br>
-hlda.py為主程式利用以下指令執行
+hlda.py為主程式利用以下指令執行(路徑請自行改為適合的路徑)
 <br>
 /home/hadoop/spark-2.4.3-bin-hadoop2.7/bin/spark-submit --master yarn --conf spark.pyspark.virtualenv.enabled
 =true --conf spark.pyspark.virtualenv.requirements=/home/hadoop/requirements.txt --conf spark.pyspark.virtualenv.bin.path=/home/hadoop/env1 --conf spark.pyspark.python=/home/hadoop/env1/bin/python3 /home/hadoop/finalproject/hlda.py <分群數量>
