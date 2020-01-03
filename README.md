@@ -1,4 +1,4 @@
-# LDA
+# 基於LDA機器學習演算法之雲端自動分類儲存系統
 DownloadTempFile資料夾用來暫時存放要分析的文章(會自動從hdfs下載)
 <br>
 filereaderAPI.py用來讀取不同副檔名的文章內容(word、pdf、txt)
